@@ -66,20 +66,7 @@ View the generated image.
 
 Download or save the image.
 
-# Project Structure
-text-to-image-generator/
-│
-├── backend/
-│   ├── routes/
-│   ├── controllers/
-│   ├── server.js
-│
-├── frontend/
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│
-└── README.md
+
 
 # Future Enhancements
 
