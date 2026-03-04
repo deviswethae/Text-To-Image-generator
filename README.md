@@ -36,9 +36,9 @@ CSS / Tailwind / Chakra UI (depending on what you used) – Styling and responsi
 
 # Installation
 1. Clone the repository
-git clone https://github.com/your-username/text-to-image-generator.git
+git clone https://github.com/deviswethae/Text-To-Image-generator.git
 2. Navigate to the project folder
-cd text-to-Image-generator
+cd Text-To-image-generator
 3. Install backend dependencies
 cd backend
 npm install
