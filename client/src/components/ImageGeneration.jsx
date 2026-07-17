@@ -16,7 +16,7 @@ const ImageGeneration = () => {
     
     setIsLoading(true);
     try {
-      const response = await axios.post('https://text-to-image-generator-0opb.onrender.com/api/generate', { 
+      const response = await axios.post('https://text-to-image-generator-vhyy.onrender.com/api/generate', { 
         prompt
       });
       setImageUrl(response.data.imageUrl);
