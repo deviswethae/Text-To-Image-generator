@@ -9,7 +9,7 @@ const HistorySidebar = ({ onSelectHistory }) => {
   const fetchHistory = async () => {
     try {
       setLoading(true);
-      const response = await axios.get('https://text-to-image-generator-0opb.onrender.com/api/history');
+      const response = await axios.get('https://text-to-image-generator-vhyy.onrender.com/api/history');
       setHistory(response.data);
     } catch (error) {
       console.error('Error fetching history:', error);
@@ -20,7 +20,7 @@ const HistorySidebar = ({ onSelectHistory }) => {
 
   const clearHistory = async () => {
     try {
-      await axios.delete('https://text-to-image-generator-0opb.onrender.com/api/history');
+      await axios.delete('https://text-to-image-generator-vhyy.onrender.com/api/history');
       setHistory([]);
     } catch (error) {
       console.error('Error clearing history:', error);
